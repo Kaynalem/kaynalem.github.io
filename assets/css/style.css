@@ -98,6 +98,7 @@ header nav ul li a:hover {
     grid-auto-flow: dense;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    margin-bottom: 25px;
 }
 .grid-item {
     justify-content: center;
@@ -111,7 +112,7 @@ header nav ul li a:hover {
 .section-title {
     padding: 20px;
     text-align: right;
-    margin: 25px;
+    margin: 25px auto;
     font-size: 48px;
     color:  var(--primary-color);
 }
