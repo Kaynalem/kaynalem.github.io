@@ -241,7 +241,6 @@ Portfolio Style
     grid-row-start: 5;
     grid-row-end: 8;
     background-image: url("../images/archie-thai.jpg");
-    background-position: center;
 }
 .item-8:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/archie-thai.jpg");
