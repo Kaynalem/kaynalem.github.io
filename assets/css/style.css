@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, header, menu, nav, section {
+    display: block;
+}
 :root {
     --primary-color: #7adfd1;
     --secondary-color: #369ba8;
@@ -12,6 +16,8 @@ body {
     background-color: #e6e6e6;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
+/*all images were taken by me, no citation needed*/
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -129,6 +135,11 @@ header nav ul li a:hover {
 }
 
 /* About me */
+.item-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+}
 .grid-item p {
     padding: 20px;
     text-align: left;
@@ -136,7 +147,17 @@ header nav ul li a:hover {
     line-height: 1.7;
     color: var(--secondary-color);
     font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
+.grid-item img {
+    border-radius: 50%;
+    height: 130px;
+    margin: auto;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
 /* Work Gallery*/
 .item-4 {
     display: grid;
