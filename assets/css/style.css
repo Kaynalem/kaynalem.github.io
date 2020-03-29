@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, header, menu, nav, section {
-    display: block;
-}
 :root {
     --primary-color: #7adfd1;
     --secondary-color: #369ba8;
@@ -18,7 +14,11 @@ body {
 }
 /*all images were taken by me, no citation needed*/
 
-/* apply styles to <header> */
+/* 
+========================================
+Header Style
+========================================
+*/
 header {
     padding: 20px 35px;
     display:flex;
@@ -75,7 +75,11 @@ header nav ul li a:hover {
 .logo {
     color: var(--tertiary-color);
 }
-/* Hero Style*/
+/* 
+========================================
+Hero Style
+========================================
+*/
 .hero {
     width: 100vw;
     height: 100vh;/*change to 100*/
@@ -108,7 +112,11 @@ header nav ul li a:hover {
     color: #d6d6d6;
     font-weight: 100;
 }
-/* Content Style*/
+/* 
+========================================
+Content Style
+========================================
+*/
 .content a {
     text-decoration: none;
 }
@@ -133,8 +141,11 @@ header nav ul li a:hover {
     border-right: 3px solid;
     border-color: var(--tertiary-color);
 }
-
-/* About me */
+/* 
+========================================
+About Me Style
+========================================
+*/
 .item-2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -158,7 +169,11 @@ header nav ul li a:hover {
     grid-column-end: 6;
 }
 
-/* Work Gallery*/
+/* 
+========================================
+Portfolio Style
+========================================
+*/
 .item-4 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -241,7 +256,10 @@ header nav ul li a:hover {
 .item-9:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/duke.jpg");
 }
-/* Contact Me */
+/* 
+========================================
+Contact Me Style
+========================================*/
 .item-11 {
     display: grid;
 }
@@ -266,6 +284,7 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     border-radius: 10px;
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     /* this will be applied on any screen smaller than 980px*/
