@@ -219,42 +219,42 @@ Portfolio Style
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url("../images/sophie.jpg");
+    background-image: url("../images/weather-dashboard.jpg");
     background-position: center;
 }
 .item-6:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sophie.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/weather-dashboard.jpg");
 }
 .item-7 {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url("../images/dexter.jpg");
+    background-image: url("../images/workday-scheduler.jpg");
     background-position: center;
 }
 .item-7:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dexter.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/workday-scheduler.jpg");
 }
 .item-8 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("../images/cats.JPG");
+    background-image: url("../images/code-quiz.jpg");
 }
 .item-8:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cats.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/code-quiz.jpg");
 }
 .item-9 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("../images/duke.jpg");
+    background-image: url("../images/password-generator.jpg");
 }
 .item-9:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/duke.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/password-generator.jpg");
 }
 #myBtn {
     display: none;
