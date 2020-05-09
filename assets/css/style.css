@@ -219,42 +219,42 @@ Portfolio Style
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url("../images/weather-dashboard.jpg");
+    background-image: url("../images/weather-dashboard.JPG");
     background-position: center;
 }
 .item-6:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/weather-dashboard.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/weather-dashboard.JPG");
 }
 .item-7 {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url("../images/workday-scheduler.jpg");
+    background-image: url("../images/workday-scheduler.JPG");
     background-position: center;
 }
 .item-7:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/workday-scheduler.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/workday-scheduler.JPG");
 }
 .item-8 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("../images/code-quiz.jpg");
+    background-image: url("../images/code-quiz.JPG");
 }
 .item-8:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/code-quiz.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/code-quiz.JPG");
 }
 .item-9 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("../images/password-generator.jpg");
+    background-image: url("../images/password-generator.JPG");
 }
 .item-9:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/password-generator.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/password-generator.JPG");
 }
 #myBtn {
     display: none;
