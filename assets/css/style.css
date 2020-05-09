@@ -209,10 +209,10 @@ Portfolio Style
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 5;
-    background-image: url("../images/run-buddy.JPG");
+    background-image: url("../images/drink-and-think.JPG");
 }
 .item-5:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/run-buddy.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/drink-and-think.JPG");
 }
 .item-6 {
     grid-column-start: 5;
